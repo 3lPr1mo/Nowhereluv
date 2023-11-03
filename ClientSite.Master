@@ -12,21 +12,19 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-                <header>
-                    <div>
-                        <a id="logo" href="#">
-                            NoWhere.Luv
-                        </a>
+        <div class="main">
+                <header id="header">
+                    <div class="nav-menu">
+                        <ul class="nav-menu-list">
+                            <li class="nav-menu-item"><a class="logo" href="AdminHome.aspx">Nowhere.Luv</a></li>
+                            <li class="nav-menu-item"><a href="#">Clientes</a></li>
+                            <li class="nav-menu-item"><a href="#">Proveedores</a></li>
+                            <li class="nav-menu-item"><a href="#">Inventario</a></li>
+                            <li class="nav-menu-item"><a href="#">Movimientos</a></li>
+                            <li class="nav-menu-item"><a href="#">Compras</a></li>
+                            <li class="nav-menu-item"><a href="#">Ventas</a></li>
+                        </ul>
                     </div>
-                    <ul>
-                        <li><a href="#">Clientes</a></li>
-                        <li><a href="#">Proveedores</a></li>
-                        <li><a href="#">Inventario</a></li>
-                        <li><a href="#">Movimientos</a></li>
-                        <li><a href="#">Compras</a></li>
-                        <li><a href="#">Ventas</a></li>
-                    </ul>
                 </header>
                 <div id="principal">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

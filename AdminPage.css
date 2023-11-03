@@ -3,6 +3,65 @@
     src: url(./assets/KaushanScript-Regular.ttf) format('opentype');
 }
 
-#logo{
-    font-family: Kaushan;
+.logo{
+    font-family: Kaushan, cursive;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-inline-end: 15px;
+}
+
+#header {
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.nav-menu ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav-menu ul li{
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.nav-menu ul li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu ul li:hover{
+    background-color: rgb(255, 255, 255);
+}
+.nav-menu ul li:hover a{
+    color: rgb(20, 20, 20);
+}
+
+.main {
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
 }
