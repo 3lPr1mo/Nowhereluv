@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ClientSite.master.cs" Inherits="Nowhereluv.ClientSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link href="AdminPage.css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+                <header>
+                    <div>
+                        <a id="logo" href="#">
+                            NoWhere.Luv
+                        </a>
+                    </div>
+                    <ul>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">Proveedores</a></li>
+                        <li><a href="#">Inventario</a></li>
+                        <li><a href="#">Movimientos</a></li>
+                        <li><a href="#">Compras</a></li>
+                        <li><a href="#">Ventas</a></li>
+                    </ul>
+                </header>
+                <div id="principal">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </div>
+                <footer>
+                    NOWHERE.LUV
+                </footer>
+        </div>
+    </form>
+</body>
+</html>

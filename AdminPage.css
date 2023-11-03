@@ -1,0 +1,8 @@
+﻿@font-face{
+    font-family: "Kaushan";
+    src: url(./assets/KaushanScript-Regular.ttf) format('opentype');
+}
+
+#logo{
+    font-family: Kaushan;
+}
