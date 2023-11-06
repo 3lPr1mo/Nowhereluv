@@ -11,6 +11,11 @@
     margin-inline-end: 15px;
 }
 
+h4{
+    font-family: Kaushan, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
 #header {
     display: flex;
     background-color: rgb(20, 20, 20);
@@ -64,4 +69,8 @@
 .main {
     background-color: rgb(20, 20, 20);
     padding: 20px;
+}
+
+#principal{
+    background-color: rgb(50, 50, 50);
 }

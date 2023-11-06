@@ -1,2 +1,31 @@
-﻿body {
+﻿@font-face {
+    font-family: "Kaushan";
+    src: url(./assets/KaushanScript-Regular.ttf) format('opentype');
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.mainHome {
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+.mainContent {
+    text-align: center; /* Centrado horizontal para el contenido dentro de mainCenter */
+}
+
+.mainInfo {
+    /* Estilos adicionales para mainInfo si es necesario */
+}
+
+h2, h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
