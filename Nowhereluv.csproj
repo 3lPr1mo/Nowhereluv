@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminHome.aspx" />
+    <Content Include="AdminHome.css" />
+    <Content Include="assets\default_picture.png" />
     <Content Include="assets\OFL.txt" />
     <Content Include="Global.asax" />
     <Content Include="AdminPage.css" />
